@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body {
+    background-color: #222222;
+  }
+
+.MainBody {
+    width: 1400px;
+    height: 9600px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: #434242;
+}
+
+.body-2 {
+    width: 1000px;
+    height: 9400px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-radius: 5px;
+    background-color: #393E46;
+    float: left;
+    font-family: 'Montserrat', serif;
+}
+
+.social-body {
+    width: 300px;
+    height: 700px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-radius: 5px;
+    background-color: #393E46;
+    float: right;
+}
+
+.social-body ul li{
+   list-style: none;
+   margin: 100px 175px 140px 50px;
+
+}
+
+.social-body ul li .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-body ul li .fa {
+    color: #fff;
+}
+
+
+.social-body ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #222222;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-body ul li a:hover {
+    transform: translate(0, -10px);
+}
+
+.social-body ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+
+.social-body ul li:nth-child(2) a:hover {
+    background-color: #c32aa3;
+}
+
+.social-body ul li:nth-child(3) a:hover {
+    background-color: #ff0000;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin: 5px 0px 5px 0px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3sec ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #61876E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3sec ease 0s;
+}
+
+button:hover {
+    background-color: #0088a9;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 5px #0088a9;
+    text-align: center;
+}
+
+p {
+    color: white;
+    display: inline-block;
+    width: 900px;
+    font-size: large;
+    margin: 40px;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+img {
+    width: 900px;
+    margin-left: 10px;
+    border: solid 2px white;
+    border-radius: 10px;
+    
+}
+
+a {
+    margin-left: 40px;
+    color: #61876E;
+}
+
