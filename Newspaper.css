@@ -7,7 +7,7 @@ body {
 
 .MainBody {
     width: 1400px;
-    height: 9500px;
+    height: 9600px;
     margin: auto;
     margin-top: 30px;
     padding-top: 10px;
@@ -17,7 +17,7 @@ body {
 
 .body-2 {
     width: 1000px;
-    height: 9200px;
+    height: 9400px;
     margin-left: 15px;
     margin-top: 20px;
     padding-top: 30px;
@@ -40,7 +40,7 @@ body {
 
 .social-body ul li{
    list-style: none;
-   margin: 100px 175px 140px 90px;
+   margin: 100px 175px 140px 50px;
 
 }
 
@@ -127,7 +127,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: #22A39F;
+    background-color: #61876E;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -143,6 +143,7 @@ h1 {
     font-size: 70px;
     text-decoration-line: underline;
     text-shadow: 2px 2px 5px #0088a9;
+    text-align: center;
 }
 
 p {
@@ -170,4 +171,8 @@ img {
     
 }
 
+a {
+    margin-left: 40px;
+    color: #61876E;
+}
 
